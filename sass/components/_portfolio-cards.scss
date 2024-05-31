@@ -1,0 +1,76 @@
+.portfolio {
+    display: flex;
+    padding-bottom: 94px;
+    flex-basis: calc((100% - 60px) /3);
+
+}
+
+.main-portfolio-absats {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.48px;
+}
+
+.main-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.main-portfolio-item {
+    position: relative;
+    border: 2px solid #EEE;
+    background: #FFF;
+    flex-basis: calc((100% - 60px) /3);
+    overflow: hidden;
+   
+}
+
+.main-portfolio-foto {
+    width: 380px;
+    height: 290px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.main-portfolio-item:hover {
+    width: 366px;
+    height: 404px;
+    flex-shrink: 0;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.main-portfolio-title {
+    margin-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-portfolio-absats {
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-portfolio-title {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 200% */
+    letter-spacing: 1.08px;
+}
+
