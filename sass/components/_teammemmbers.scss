@@ -1,31 +1,31 @@
 
-.team-members {
+.team__members {
     padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
     flex-wrap: nowrap;
 }
 
-.team-box {
+.team__box {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 
 }
 
-.team-icon {
+.team__icon {
     width: 25px;
     height: 25px;
 }
 
-.container-list {
+.container__list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 
-.container-header {
+.container__header {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -36,7 +36,7 @@
     letter-spacing: 1.08px;
 
 }
-.container-picture {
+.container__picture {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -46,14 +46,14 @@
 
 }
 
-.container-item {
+.container__item {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     padding-bottom: 30px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.container-name {
+.container__name {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -66,7 +66,7 @@
     margin-top: 30px;
 }
 
-.container-title {
+.container__title {
     color: #757575;
     text-align: center;
     font-family: Roboto;
@@ -78,12 +78,12 @@
     text-align: center;
     margin-top: 10px;
 }
-.container-right {
+.container__right {
     margin-left: 70px;
 }
 
 
-.teammember-top {
+.teammember__top {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -91,7 +91,7 @@
     justify-content: space-evenly;
 }
 
-.teamitem-top {
+.teamitem__top {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,7 +99,7 @@
     justify-content: space-evenly;
 
 }
-.team-link {
+.team__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,17 +109,17 @@
 
 }
 
-.team-link:hover {
+.team__link:hover {
     background: linear-gradient(180deg, #2196f3 0%, #2196f3 100%);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.teammember-top {
+.teammember__top {
     margin-top: 16px;
 }
-.teammember-icon:hover .team-icon {
+.teammember__icon:hover .team__icon {
     fill: #FFFFFF;
 }
-.team-icon {
+.team__icon {
     fill: #AFB1B8;
 }

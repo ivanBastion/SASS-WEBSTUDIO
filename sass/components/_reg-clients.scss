@@ -1,4 +1,4 @@
-.reg-list {
+.reg__list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,7 +7,7 @@
    
 }
 
-.reg-item {
+.reg__item {
     width: 170px;
     height: 92px;
     top: 2490px;
@@ -22,24 +22,24 @@
 
 }
 
-.reg-title {
+.reg__title {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
 
-.reg-clients {
+.reg__clients {
     margin-top: 94px;
     margin-bottom: 94px;
 }
 
-.img-reg {
+.img__reg {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.reg-icon {
+.reg__icon {
     display: flex;
     width: 106px;
     height: 60px;
@@ -47,7 +47,7 @@
 
 }
 
-.reg-item {
+.reg__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,23 +55,23 @@
 }
 
 
-.join-title {
+.join__title {
     padding-left: 12px;
 }
 
-.fill-icon {
+.fill__icon {
     fill: white;
 }
 
-.fill-company:hover {
+.fill__company:hover {
     fill: #2196F3;
 }
 
-.fill-company {
+.fill__company {
     fill: #AFB1B8;
 }
 
-.reg-listconteiner {
+.reg__listconteiner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,13 +83,13 @@
 
 }
 
-.reg-listconteiner:hover {
+.reg__listconteiner:hover {
     border: 1px solid #2196F3;
 }
 
 
 
 
-.reg-listconteiner:hover .fill-company {
+.reg__listconteiner:hover .fill__company {
     fill: #2196F3;
 }

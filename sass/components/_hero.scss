@@ -1,23 +1,24 @@
-.hero-box {
+.hero__box {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+   
 }
 
 .hero {
     content: "";
     display: inline-block;
     background-image: url("/img/hero.webp") ;
-    background-position: 50% 50%;
+    background-position: 100% 100%;
     padding-top: 200px;
     padding-bottom: 200px;
-    max-width: 1205px;
-    max-height: 600px;
+    width: 1210px;
+    height: 600px;
     flex-shrink: 0;
 
 }
 
-.hero-title {
+.hero__title {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -43,7 +44,7 @@
     }
 }
 
-.hero-order {
+.hero__order {
     display: flex;
     align-self: center;
     align-items: center;
@@ -58,7 +59,7 @@
 
 }
 
-.hero-title {
+.hero__title {
     display: flex;
     justify-content: center;
     align-self: center;

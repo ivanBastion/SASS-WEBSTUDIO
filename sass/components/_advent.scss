@@ -4,13 +4,13 @@
     padding-bottom: 94px;
 }
 
-.pages-list_advent {
+.pages__list__advent {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.advent-text {
+.advent__text {
     margin-top: 10px;
     color: #757575;
     font-family: Roboto;
@@ -21,7 +21,7 @@
     /* 171.429% */
     letter-spacing: 0.42px;
 }
-.advent-img {
+.advent__img {
     display: flex;
     width: 70px;
     height: 70px;
@@ -29,13 +29,13 @@
 
 }
 
-.advent-href {
+.advent__href {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 55px;
 }
-.pages-list>.pages-item>p {
+.pages__list>.pages__item>p {
     color: #757575;
 
     font-size: 14px;
