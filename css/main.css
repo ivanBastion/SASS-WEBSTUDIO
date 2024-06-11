@@ -125,15 +125,12 @@
 }
 
 .hero {
-  content: "";
-  display: inline-block;
   background-image: url("../img/hero.webp");
-  background-position: 100% 100%;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1210px;
+  background-size: cover;
   height: 600px;
-  flex-shrink: 0;
 }
 
 .hero__title {
