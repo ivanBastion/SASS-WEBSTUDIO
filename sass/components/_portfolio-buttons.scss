@@ -1,4 +1,4 @@
-.portfolio-buttons {
+.portfolio__buttons {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -6,7 +6,7 @@
     margin-bottom: 56px;
    
 }
-.main-button1 {
+.main__button1 {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -24,7 +24,7 @@
     flex-shrink: 0;
 }
 
-.main-button2 {
+.main__button2 {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -42,7 +42,7 @@
     flex-shrink: 0;
 }
 
-.main-button3 {
+.main__button3 {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -60,7 +60,7 @@
     flex-shrink: 0;
 }
 
-.main-button4 {
+.main__button4 {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -76,7 +76,7 @@
 
 }
 
-.main-button5 {
+.main__button5 {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -95,27 +95,27 @@
 }
 
 
-.main-button1:hover {
+.main__button1:hover {
     background: #2196F3;
     color: #FFF;
 }
 
-.main-button2:hover {
+.main__button2:hover {
     background: #2196F3;
     color: #FFF;
 }
 
-.main-button3:hover {
+.main__button3:hover {
     background: #2196F3;
     color: #FFF;
 }
 
-.main-button4:hover {
+.main__button4:hover {
     background: #2196F3;
     color: #FFF;
 }
 
-.main-button5:hover {
+.main__button5:hover {
     background: #2196F3;
     color: #FFF;
 }
