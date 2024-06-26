@@ -6,92 +6,40 @@
     margin-bottom: 56px;
    
 }
-.main__button1 {
-    color: #212121;
+@mixin button($button-color, $button-width){
+    color: $button-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
-    width: 103px;
+    width: $button-width;
     height: 38px;
     flex-shrink: 0;
-    border-radius: 4px;
+    border-radius:4px;
     border: #F5F4FA;
     background: #F5F4FA;
-    width: 73px;
-    height: 38px;
     flex-shrink: 0;
+}
+.main__button1 {
+   @include button( $button-color: black, $button-width: 73px);
+    
 }
 
 .main__button2 {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    width: 103px;
-    height: 38px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: #F5F4FA;
-    background: #F5F4FA;
-    width: 125px;
-    height: 38px;
-    flex-shrink: 0;
+    @include button( $button-color: black, $button-width: 125px);
 }
 
 .main__button3 {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    width: 103px;
-    height: 38px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: #F5F4FA;
-    background: #F5F4FA;
-    width: 112px;
-    height: 38px;
-    flex-shrink: 0;
+    @include button( $button-color: black, $button-width: 112px);
 }
 
 .main__button4 {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    width: 103px;
-    height: 38px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: #F5F4FA;
-    background: #F5F4FA;
-
+    @include button( $button-color: black, $button-width: 103px);
 }
 
 .main__button5 {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    width: 103px;
-    height: 38px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: #F5F4FA;
-    background: #F5F4FA;
-    width: 130px;
-    height: 38px;
-    flex-shrink: 0;
+    @include button( $button-color: black, $button-width: 130px);
 }
 
 

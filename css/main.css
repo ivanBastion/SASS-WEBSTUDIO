@@ -614,6 +614,9 @@
   opacity: 1;
   transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal {
@@ -628,6 +631,9 @@
   border-radius: 4px;
   background: #FFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .backdrop__svg {
@@ -690,7 +696,7 @@
   margin-left: 150px;
 }
 
-.backdrop.is-hidden {
+.backdrop.is__hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -776,61 +782,55 @@
 }
 
 .main__button1 {
-  color: #212121;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-  width: 103px;
+  width: 73px;
   height: 38px;
   flex-shrink: 0;
   border-radius: 4px;
   border: #F5F4FA;
   background: #F5F4FA;
-  width: 73px;
-  height: 38px;
   flex-shrink: 0;
 }
 
 .main__button2 {
-  color: #212121;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-  width: 103px;
+  width: 125px;
   height: 38px;
   flex-shrink: 0;
   border-radius: 4px;
   border: #F5F4FA;
   background: #F5F4FA;
-  width: 125px;
-  height: 38px;
   flex-shrink: 0;
 }
 
 .main__button3 {
-  color: #212121;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-  width: 103px;
+  width: 112px;
   height: 38px;
   flex-shrink: 0;
   border-radius: 4px;
   border: #F5F4FA;
   background: #F5F4FA;
-  width: 112px;
-  height: 38px;
   flex-shrink: 0;
 }
 
 .main__button4 {
-  color: #212121;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -842,23 +842,22 @@
   border-radius: 4px;
   border: #F5F4FA;
   background: #F5F4FA;
+  flex-shrink: 0;
 }
 
 .main__button5 {
-  color: #212121;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-  width: 103px;
+  width: 130px;
   height: 38px;
   flex-shrink: 0;
   border-radius: 4px;
   border: #F5F4FA;
   background: #F5F4FA;
-  width: 130px;
-  height: 38px;
   flex-shrink: 0;
 }
 

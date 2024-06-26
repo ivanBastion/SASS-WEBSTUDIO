@@ -6,6 +6,7 @@
 @import "./reg-clients";
 @import "./footer";
 @import "./modal";
-@import "../components/portfolio-buttons";
-@import "../../sass/components/portfolio-cards";
+@import "../../sass/utils/portfolio-buttons";
+@import "../../sass/utils/portfolio-cards";
 @import "./reset";
+@import "../../sass/utils/mixin";
