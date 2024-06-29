@@ -975,4 +975,36 @@ ul {
 
 img {
   display: block;
+}
+
+/* Set the base width of a adaptive container. */
+div.adaptive {
+  max-width: 1200px;
+  max-width: 768px;
+  max-width: 480px;
+}
+
+@media screen and (min-width: 480px) {
+  div {
+    background-color: #00bcd4;
+  }
+  div.adaptive {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  div {
+    background-color: #8bc34a;
+  }
+  div.adaptive {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  div {
+    background-color: #ff5252;
+  }
+  div.adaptive {
+    max-width: 1200px;
+  }
 }/*# sourceMappingURL=main.css.map */
