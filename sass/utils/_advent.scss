@@ -1,13 +1,22 @@
-
+.advent__box{
+    display: flex;
+    flex-wrap: wrap;
+}
 .advent {
+   
     padding-top: 94px;
     padding-bottom: 94px;
+   
 }
 
 .pages__list__advent {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+    }
 }
 
 .advent__text {

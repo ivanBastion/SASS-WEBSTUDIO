@@ -1,8 +1,3 @@
-.adaptiv {
-  max-width: 1200px;
-  min-width: 907px;
-}
-
 .header__web {
   color: #2196F3;
   font-family: Raleway;
@@ -74,10 +69,11 @@
   padding-top: 24px;
   padding-bottom: 25px;
   outline: solid lightgray 0.5px;
+  align-items: center;
 }
 
 .header__navigation {
-  display: flex;
+  display: none;
   justify-content: space-evenly;
   margin-right: auto;
   margin-left: 93px;
@@ -96,13 +92,14 @@
 }
 @media screen and (min-width: 480px) {
   .header__navigation {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     width: 276px;
     height: 48px;
     flex-shrink: 0;
     background-color: #ffffff;
     overflow: hidden;
+    align-self: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -114,25 +111,27 @@
 
 .header__list {
   border: #212121 2px;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   gap: 52px;
-  align-self: center;
-}
-@media screen and (min-width: 480px) {
-  .header__list {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 @media screen and (min-width: 768px) {
   .header__list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     gap: 0px;
+  }
+}
+
+.header__contacts {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__contacts {
+    display: block;
+    flex-wrap: wrap;
   }
 }
 
@@ -157,7 +156,7 @@
 }
 
 .header__addres {
-  color: red;
+  color: #757575;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -231,6 +230,13 @@
   height: 600px;
   background-color: #2196F3;
 }
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+    height: 400px;
+    flex-shrink: 0;
+  }
+}
 
 .hero__title {
   display: flex;
@@ -285,6 +291,11 @@
   text-transform: uppercase;
 }
 
+.advent__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .advent {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -293,7 +304,13 @@
 .pages__list__advent {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .pages__list__advent {
+    flex-wrap: nowrap;
+  }
 }
 
 .advent__text {
@@ -569,6 +586,12 @@
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .reg__listconteiner {
+    flex-wrap: nowrap;
+  }
 }
 
 .reg__listconteiner:hover {
